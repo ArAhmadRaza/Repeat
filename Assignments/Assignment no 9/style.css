@@ -1,0 +1,192 @@
+/* 
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.row{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-left: 5px solid purple;
+    animation-name: wer;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes wer {
+    0%{
+       border-left: 5px solid rgb(255, 165, 0);
+       transform: rotate(50deg);
+    }
+    25%{
+        border-top:5px solid rgb(34, 202, 104);
+        transform:rotate(190deg);
+    }
+    50%{
+        border-right: 5px solid rgb(255, 0, 221);
+        transform: rotate(250deg);
+    }
+    75%{
+        border-bottom: 5px solid rgb(0, 119, 255);
+        transform: rotate(300deg);
+    }
+    100%{
+        border-left: 5px solid rgb(255, 8, 0);
+        transform: rotate(360deg);
+    }
+
+} */
+
+/* .btn{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(1, 1, 1, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover{
+
+  transform: translateY(-300px);
+  transition: ease-in-out;
+}
+.butn {
+  background-color: rgba(1, 1, 1, 0.5);
+  color: red;
+  border: 1px solid red;
+  padding: 7px;
+}
+
+.img1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+} */
+
+
+
+
+.row{
+  display: flex;
+  justify-content:space-evenly;
+  animation-name: wer;
+  animation-duration:9s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wer {
+0%{
+    transform: translateX(-0px);
+  }
+  25%{
+    transform: translateX(-100px);
+  }
+  50%{
+    transform: translateX(-190px);
+  }
+  75%{
+    transform: translateX(-280px);
+  }
+  100%{
+    transform: translateX(-360px);
+  } 
+
+}
+
+.row:hover{
+  animation-play-state: paused;
+}
+.box1:hover{
+  transform:scale(1.4);
+  transition:1s linear;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.box2:hover{
+    transform: scale(1.4);
+    transition:1s linear;
+    border-radius: 50%;
+    background-color: violet;
+}
+
+.box3:hover{
+    transform: scale(1.4);
+    transition:1s linear;
+    border-radius: 50%;
+    background-color: thistle;
+}
+
+.box4:hover{
+    transform: scale(1.4);
+    transition:1s linear;
+    border-radius: 50%;
+    background-color: teal;
+}
+.box5:hover{
+    transform: scale(1.4);
+    transition:1s linear;
+    border-radius: 50%;
+    background-color:grey;
+}
+
+
+.box1{
+  width: 150px;
+  height: 150px;
+  background-color: yellowgreen;
+}
+
+.box2{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(205, 50, 50);
+}
+
+.box3{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(97, 50, 205);
+}
+
+.box4{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(205, 156, 50);
+}
+
+.box5{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(192, 50, 205);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

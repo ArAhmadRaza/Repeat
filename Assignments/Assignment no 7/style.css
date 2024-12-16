@@ -1,0 +1,248 @@
+body{
+        background-color: rgb(107, 142, 35);
+    margin: 0px;
+}
+nav{
+    background-color: rgb(48, 82, 82);
+    height: 75px;
+
+}
+#h1{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.img{
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 4px;
+   border: 4px solid goldenrod;
+}
+.home{
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    color: goldenrod;
+    font-size: 28px;
+}
+.services{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    color: goldenrod;
+    font-size: 28px;
+}
+.about{
+    position: absolute;
+    top: 25px;
+    right : 420px;
+    color: goldenrod;
+    font-size: 28px;
+}
+
+.contact{
+    position: absolute;
+    top: 25px;
+    right:310px ;
+    color: goldenrod;
+    font-size: 28px;
+}
+
+.button{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top:25px;
+    right: 100px;
+    background-color: goldenrod;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.div1{
+    height:300px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+.ab{
+    margin-left: 50px;
+    color: goldenrod;
+}
+.bc{
+    color: goldenrod;
+}
+.button2{
+    background-color: goldenrod;
+    font-size: 20px;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+}
+.cd{
+    width: 370px;
+    text-align: justify;
+
+}
+.itag{
+    width: 400px;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+.sec{
+    background-color: rgb(206, 152, 17);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.wer{
+    text-align: justify;
+    padding: 30px;
+
+}
+.img1{
+    width: 90px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+.img2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+.img3{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+.img4{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+.img5{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+.img6{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px; 
+    top: 20px;  
+    border: 4px solid rgb(107, 142, 35);
+}
+
+#box1{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+
+#box2{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+#box3{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+#box4{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+#box5{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+#box6{
+    border: 2px solid rgba(107, 142, 35, .3);
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+.sec2{
+    background-color: rgb(48, 82, 82);
+    height: 700px;
+    border-top: 2px solid black;
+    /* border-bottom: 2px solid black; */
+}
+
+#ah1{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+#video{
+    width: 400px;
+    height: 227px;
+    margin: 30px;
+    margin-top: 60px;        
+    border: 4px solid goldenrod;
+    border-radius: 20px;
+    float: left;
+}
+#para{
+    color: goldenrod;
+    width: 450px;
+    float: left;
+    /* padding: 40px; */
+    text-align: justify;
+    margin-top: 0px;
+    /* background-color: black; */
+    font-size: 20px;
+   
+}
+.sec3{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 700px;
+    border-top: 4px solid goldenrod;
+    border-bottom: 2px solid black;
+}
+#ques{
+    font-size: 45px;
+}
+#no1{
+    color: goldenrod;
+    margin-left: 20px;
+    font-size: 25px;
+    width: 400px;
+    text-align: justify;
+    float: left;
+}
+#no2{
+    float: left;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#inp{
+    width: 200px;
+    height: 30px;
+    
+}

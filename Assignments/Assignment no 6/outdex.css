@@ -1,0 +1,65 @@
+.hello{
+    background-color: thistle;
+    width: 350px;
+    height: 573px;
+    margin-left: 320px;
+    border-radius: 5%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;  
+    padding: 20px;  
+    border-radius: 50%;
+}
+p{
+
+    text-align: center;
+    font-size: 20px;
+     margin-top: 20px; 
+     font-weight: 900px; 
+}
+.Password{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 40px;
+   border-radius: 10px;
+
+}
+
+button{
+    width: 260px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 40px;
+    background-color:teal;
+   margin-top: 6px;
+   border-radius: 10px;
+}
+.ty{
+    width: 30px;
+    height: 30px;
+    margin-left:5px;
+    border-radius: 50%;
+    
+}
+.tu{
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+.ti{
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+body{
+    background-color: lightgray;
+}
+.Password{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 40px;
+}
