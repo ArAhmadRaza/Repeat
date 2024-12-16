@@ -1,0 +1,164 @@
+/* div span h1 i {
+    background-color: blueviolet;
+}
+
+
+
+
+h1 div{
+    background-color: tomato;
+}
+
+div b{
+    background-color: springgreen;
+}
+ */
+
+/* 
+
+ div > span > h1 > i {
+    background-color: violet;
+ } */
+
+
+/* 
+ h1 + p {
+    background-color: yellowgreen;
+ } */
+
+
+
+ /* h1 ~ p {
+    background-color: yellowgreen;
+ }  */
+
+
+
+
+
+/* img[alt]{
+    border-radius: 10px;
+}
+
+
+h1[id]{
+    background-color: yellow;
+}
+
+input[type]{
+    height: 200px;
+    border-radius: 50%;
+}
+
+ */
+
+
+input[value="button"]{
+    background-color: violet;
+    border: 5px solid yellow;
+    /* border-radius: 50%; */
+    border-color: red;
+    width: 100px;
+    height: 100px;
+    clip-path: circle();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Combinator Selector
+1.Descendent Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

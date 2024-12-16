@@ -1,0 +1,48 @@
+/* px */
+/* em, vw, vh, % */
+
+/* div{
+    background-color: brown;
+    width: 300px;
+}
+
+
+h1{
+    background-color: aqua;
+    width: 35vw;
+    height:35vh;
+}
+
+p{
+    font-size: 10vw;
+}
+ */
+
+
+ p{
+    /* background-color: aqua; */
+    background-image: url("./i.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 120px;
+    color: yellow;
+    /* background: url("./i.jpg") center scroll no-repeat;  */
+    
+
+ }
+
+
+
+
+
+
+
+
+
+/* h1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    font-size: 1in;
+} */

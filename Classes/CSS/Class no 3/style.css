@@ -1,0 +1,25 @@
+.World{
+    background-color: tomato ;
+}
+
+#Hello{
+    background-color: yellow;
+}
+
+h1{
+    background-color: yellowgreen;
+}
+
+*{
+    background-color: springgreen;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+img{
+    width: 100px;
+    border-radius: 150px;
+}

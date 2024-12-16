@@ -1,0 +1,102 @@
+/* h1::first-letter{
+    border: 2px solid yellowgreen;
+    background-color: aqua;
+    font-size: 100px;
+}
+ */
+
+
+/* 
+h1:not(#Heading){
+    background-color: aquamarine;
+} */
+
+button::after {
+     content: url(./image.jpg); 
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+}
+
+
+/* div:nth-child(2) {
+    background-color: yellow;
+}
+
+
+li:nth-child(4){
+
+    color: brown;
+} */
+
+/* 
+div:nth-of-type(2){
+    background-color: violet;
+    color: tomato;
+} */
+
+
+:is(.h2, .h3){
+    background-color: aqua;
+}
+
+
+
+
+/* Selects the second element of div siblings */
+/* div:nth-child(2) {
+    background: red;
+  } */
+  
+  /* Selects the second li element in a list */
+  /* li:nth-child(2) {
+    background: lightgreen;
+  } */
+  
+  /* Selects every third element among any group of siblings */
+  /* :nth-child(3) {
+    background: yellow;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    background-color: blueviolet;
+    width: 700px;
+    color: cadetblue;
+}
+
+h1[name]:hover{
+    background-color: aqua;
+    color: white;
+    width: 500px;
+
+}
+
+input:focus{
+    background-color: tomato;
+    color: yellow;
+    width: 400px;
+    
+}
+
+span:visited{
+    background-color: forestgreen;
+    color: aqua;
+    width: 300px;
+    text-decoration: none;
+    transition: background-color 1s, color 2s;
+
+} */
+

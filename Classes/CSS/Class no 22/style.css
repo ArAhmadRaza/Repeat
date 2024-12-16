@@ -1,0 +1,40 @@
+.box {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  width: 200px;
+  height: 200px;
+
+  /* animation-name: random;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite; */
+  animation: random 4s ease 1s infinite alternate both;
+
+  /* animation-direction: alternate-reverse; */
+}
+
+@keyframes random {
+  0% {
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    transform: rotate(30deg);
+  }
+  25% {
+    /* background-color: wheat; */
+    transform: rotate(90deg);
+  }
+  50% {
+    /* background-color: aliceblue; */
+    transform: rotate(130deg);
+  }
+  100% {
+    /* background-color: tomato; */
+    transform: rotate(190deg);
+  }
+}

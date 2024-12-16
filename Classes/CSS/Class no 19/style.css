@@ -1,0 +1,121 @@
+/* h1{
+    background-image: url("./hd.jpg");
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+} */
+
+
+/* 
+input{
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: violet;
+    outline-offset: 5px;
+    outline: solid 2px red ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} */
+
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+    h1{
+        background-color: springgreen;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    h1{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    h1{
+        background-color: orange;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

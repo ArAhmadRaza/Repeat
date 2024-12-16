@@ -1,0 +1,55 @@
+.parent{
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: end; */
+    
+}
+#child{
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#box1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#box2{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+   
+    
+}
+
+
+
+#box3{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+#box4{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+#box5{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}

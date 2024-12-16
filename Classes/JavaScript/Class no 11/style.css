@@ -1,0 +1,31 @@
+.container{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    animation-name: wer;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-delay:0.5s;
+    animation-timing-function:linear;
+}
+
+@keyframes wer {
+    from{
+        background-color: blueviolet;
+        transform: rotate(0deg);
+    }
+    50%{
+        background-color: white;
+    }
+    75%{
+        background-color: orangered;
+    }
+    to{
+        background-color: cadetblue ;
+        transform: rotate(360deg);
+    }
+}
+
+.container:hover{
+    animation-play-state: paused;
+}

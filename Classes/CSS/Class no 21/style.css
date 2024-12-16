@@ -1,0 +1,17 @@
+div{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    animation-name: toggle;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes toggle {
+    0% { background-color: aqua; }
+    50% { background-color: gray; }
+    100% { background-color: red; }
+}

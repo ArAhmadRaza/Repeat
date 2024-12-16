@@ -1,0 +1,34 @@
+/* h1{
+    background-color: aqua;
+    border: 5px dotted black;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+.div{
+    background-color: tomato;
+    border: 10px solid #df4567;
+    width: 50
+} */
+
+
+.box1{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 124;
+    top: 300px;
+    /* top: 150px; */
+    /* left: 100px; */
+    /* right: 40%; */
+}
+
+.box2{
+    background-color: springgreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* z-index: 46456; */
+}
+

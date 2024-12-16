@@ -1,0 +1,65 @@
+/* h1{
+    background-color: aqua;
+    border: 8px solid yellowgreen;
+    padding: 10px;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+div{
+    border: 10px solid red;
+    background-color: violet;
+} */
+
+
+
+
+
+.Box1{
+    background-color: tomato;
+    /* width: 70px;
+    height: 50px; */
+    width: 300px;
+    height: 200px;
+    /* position: absolute; */
+    /* z-index: 3; */
+    /* right: 500px;
+
+    bottom: 200px; */
+
+    
+    /* position: sticky;
+left: 10px;
+top: 10px; */
+
+
+
+
+
+
+}
+
+.Box2{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    /* position: absolute; */
+   /* position: relative;
+   
+   bottom: 300px;
+    right: 100px; */
+
+
+
+    /* position: fixed; */
+
+    /* position: static; */
+
+    /* position: relative; */
+
+
+}
+
+
+
+

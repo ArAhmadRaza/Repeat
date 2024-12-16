@@ -1,0 +1,39 @@
+.parent{
+    background-color: chartreuse;
+    height: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row-reverse wrap-reverse;
+    margin: 0px;
+    padding: 0px;
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+
+.h1{
+display: flex;
+    margin-top: 20px;
+    background-color: yellow;
+    width: 26%;
+    height: 200px;
+}
+
+.box2{
+    background-color: yellowgreen;
+    width: 26%;
+    height: 200px;
+}
+
+.box3{
+    background-color: violet;
+    width: 26%;
+    height: 200px;
+}
+
+.box4{
+    background-color: aqua;
+    width: 26%;
+    height: 200px;
+}

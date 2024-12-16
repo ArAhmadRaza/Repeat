@@ -1,0 +1,38 @@
+
+{
+    "Country": {
+        "Capital": "Berlin",
+        "Currency": "Euro",
+        "Population": 83000000
+    },
+    "Continent": "Europe",
+    "Area": 357021.6,
+    "Borders": ["Germany", "Austria", "Switzerland", "France", "Luxembourg"],
+    "Languages": ["German", "Bavarian", "Austrian", "Swiss German", "French", "Luxembourgish"],
+    "Timezones": ["UTC+1", "UTC+1", "UTC+1", "UTC+1", "UTC+1", "UTC+2"]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

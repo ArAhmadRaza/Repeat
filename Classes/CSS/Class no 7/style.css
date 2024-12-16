@@ -1,0 +1,72 @@
+/* h1{
+    background-color: aqua;
+    font-size: 16px;
+    padding: 20px;
+    width: 20px;
+    height: 50px;
+    color: yellow;
+    overflow-x: scroll;
+}
+
+.para{
+    background-color: violet;
+    margin: 50px;
+    padding: 40px;
+    
+} */
+
+/* body{
+    background-color: chartreuse;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+} */
+
+
+
+
+
+
+/* .para1{
+    background-color: yellowgreen;
+}
+*/
+
+.para2{
+    background-color: tomato;
+    margin: 0px;
+    padding: 30px;
+    border-width: 15px;
+    border-style: double;
+    border-color: crimson;
+} 
+
+.div{
+    background-color: yellow;
+    /* margin: 0; */
+    padding: 40px;
+    border-width: 50px;
+    border-style: solid;
+    border-color: #f2a5a8;
+    /* border: 50px solid blue; */
+}
+
+.para1{
+    background-color: teal;
+    margin-top: 0px;
+    border: 12px inset rgb(45, 89, 150);
+    padding: 20px;
+}
+
+.paramid{
+    background-color: royalblue;
+    padding: 40px;
+    border: 20px solid red;
+}
+
+b{
+    background-color: salmon;
+    border-width: 2px;
+    border-style: outset;
+    border-color: yellowgreen;
+}
