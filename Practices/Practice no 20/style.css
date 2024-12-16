@@ -1,0 +1,28 @@
+ #box1{
+    background-color: yellowgreen;
+    width: 30%;
+    height: 150px;
+    float: left;
+    border-radius: 20px;
+    padding: 6px;
+    padding-top: 20px;
+ }
+ #box2{
+    background-color: lightblue;
+    width: 30%;
+    height: 150px;
+    margin-left: 35px;
+    float: left;
+    border-radius: 20px;
+    padding: 6px;
+    padding-top: 20px;
+ }
+ #box3{
+    width: 30%;
+    height: 150px;
+    background-color: orange;
+    float: right;
+    border-radius: 20px;
+    padding: 6px;
+    padding-top: 20px;
+ }

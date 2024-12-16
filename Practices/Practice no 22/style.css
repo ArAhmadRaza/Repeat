@@ -1,0 +1,32 @@
+.parent{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+
+
+.box1{
+    background-color: yellowgreen;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+   
+}
+.box2{
+    background-color: aquamarine;
+    width: 270px;
+    height: 200px;
+}
+.box3{
+    background-color: rgb(68, 27, 179);
+    width: 270px;
+    height: 200px;
+}
+.box4{
+    background-color: rgb(205, 60, 50);
+    width: 270px;
+    height: 200px;
+}

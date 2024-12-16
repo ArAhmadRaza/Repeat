@@ -1,0 +1,18 @@
+@import url('./abc.css');
+#anchor{
+    background-color: aqua;
+    color: rgba(255, 0, 149, 0.801);
+    font-size: 30px;
+    text-decoration: none;
+     display: flex;
+    flex-direction: row-reverse;
+      border: 8px solid rgb(99, 109, 121);
+}
+
+#img1{
+  
+    border-radius: 13%;
+    position: relative;
+    left: 300px;
+ 
+}

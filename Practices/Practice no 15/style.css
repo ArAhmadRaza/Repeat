@@ -1,0 +1,27 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+@font-face{
+	font-family:'wer';
+	src:url('./Matemasie-Regular.ttf');
+}
+
+h1{
+	background-color:blue;
+}
+h2{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	font-face
+}
+h3{
+	font-family:'wer';
+}
+h4{
+	 font-family: "Bungee Tint", sans-serif;
+ 	 font-weight: 400;
+	 font-style: normal;
+}

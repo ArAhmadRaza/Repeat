@@ -1,0 +1,88 @@
+
+/* css code for form validation */
+
+
+
+
+
+
+
+#form{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#username{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#email{    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#password{    
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#confirmPassword{    
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#submit{    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

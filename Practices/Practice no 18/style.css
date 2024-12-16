@@ -1,0 +1,27 @@
+.ab{
+    background: darkgreen;
+    border-width: 8px ;
+    border-style: solid;
+    border-color:darkslateblue ;
+
+}
+.bc{
+    background: teal;
+    border-width:8px ;
+    border-style:solid ;
+    border-color: rgb(100, 120, 120);
+}
+.cd{
+    background: olivedrab;
+    border-width:8px ;
+    border-style:solid ;
+    border-color: ;
+}
+.div1{
+    background: purple;
+    border-width: 8px;
+    border-style:inset ;
+    border-color: cadetblue;
+    /* width: 50%; */
+    /* height: 150px; */
+}

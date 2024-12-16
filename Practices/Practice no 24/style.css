@@ -1,0 +1,30 @@
+.mycss{
+    background-color: yellowgreen;
+}
+.parent{
+ 
+}
+.box1{
+    background-color: aqua;
+    width: 20%;
+    height: 200px;  
+     float: left;
+}
+.box2{
+    background-color: rgb(255, 0, 21);
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.box3{
+    background-color: rgb(255, 0, 149);
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.box4{
+    background-color: rgb(40, 51, 51);
+    width: 20%;
+    height: 200px;
+    float: right;
+}

@@ -1,0 +1,27 @@
+h1:hover{
+    background-color: aqua;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.porro:focus{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* .para::first-line {
+    background-color: blueviolet;
+    color: yellowgreen;
+    font-style: italic;
+    font-size:  70px;
+} */
+
+
+/* .para::before{
+    content: "this is a para";
+} */
+

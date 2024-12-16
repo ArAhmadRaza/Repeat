@@ -1,0 +1,75 @@
+#point1{
+    background-color: yellowgreen;
+    width: 23%;
+    height: 405px;
+    float: left;
+    
+}
+
+#point2{
+    background-color: yellowgreen;
+    width:50%;
+    height: 100px;
+    margin: 0px 5px 2px;
+    float: left;
+}
+
+#point3{
+    background-color: red;
+    width:25% ;
+    height: 100px;
+    margin: 0px 5px 2px;
+
+    float: left;
+}
+
+#point4{
+    background-color: goldenrod;
+    width:24%;
+    height: 150px;
+    margin: 0px 5px 2px;
+
+    float:left
+    
+
+}
+
+#point5{
+    background-color: red;
+    width: 25%;
+    height: 150px;
+    margin: 0px 5px 2px;
+
+    float: left;
+}
+
+#point6{
+    background-color:yellowgreen;
+    width: 25%;
+    height: 302px;
+    margin: 0px 5px 2px;
+
+    float: right;
+}
+
+
+#point7{
+    background-color:red;
+    width:24%;
+    height: 150px;
+    margin: 0px 5px 2px;
+
+    float:left
+    
+
+}
+
+#point8{
+    background-color:goldenrod;
+    width: 25%;
+    height: 150px;
+    margin: 0px 5px 2px;
+
+    float: left;
+}
+

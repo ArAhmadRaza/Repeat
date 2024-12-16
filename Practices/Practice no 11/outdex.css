@@ -1,0 +1,104 @@
+.fresh{
+
+background-color: chartreuse;
+font-style: italic;
+padding: 50px;
+
+}
+
+.type{
+
+    background-color: darkmagenta;
+    font-style: oblique;
+    padding: 50px;
+
+}
+
+.search{
+
+        background-color: honeydew;
+        font-style: italic;
+        padding: 50px;
+
+}
+
+
+h1{
+
+    background-color: blueviolet;
+    color: gold;
+    padding: 30px;
+
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+
+}
+
+body{
+    
+    background-color: thistle;
+    
+
+}
+
+
+#no1{
+
+    background-color: aqua;
+    color: chocolate;
+    padding: 30px;
+
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+
+}
+
+#no2
+ {
+
+    background-color: coral;
+    color: forestgreen;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+ }
+/* {
+
+    background-color: darkslategray;
+    color: yellowgreen;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+
+} */
+
+.img1{
+
+    margin-left: 60px;
+
+}
+
+.img2{
+
+    margin-left: 60px;
+    
+}
+
+.img3{
+
+    margin-left: 60px;
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+/* 
+.pop{
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+.container2{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.container3{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    animation-name: sas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+}
+@keyframes sas {
+    from{
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+}
+.box4:hover{
+    animation-play-state: paused;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    animation-name: wer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+}      
+@keyframes wer {
+
+    from{
+        background-color: yellow;
+        transform: rotate(0deg);
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: red;
+    }
+    100%{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}
+.box:hover{
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+ 
+ 
+    .box{
+        width: 100px;
+        height: 100px;
+        
+    }   
+    .box4{
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    transform-origin: center;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: rotate1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    transform-origin: center;
+}
+
+@media screen and (max-width: 600px) {
+    .box{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.box1:hover{
+    animation-play-state: paused;
+}
+.box:hover{
+    animation-play-state: paused;
+}
+@keyframes rotate1 {
+    from{
+        background: linear-gradient(teal, blue);
+        transform: rotate(360deg);
+    }
+    25%{
+        background: linear-gradient(teal, blue);
+
+    }
+    to{
+        background: linear-gradient(45deg ,yellow, pink);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate {
+    from{
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    to{
+        background-color:  yellow;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94vw;
+    height: 97vh;
+    /* background-color: lightblue; */
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

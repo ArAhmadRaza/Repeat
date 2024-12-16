@@ -1,0 +1,24 @@
+.btn{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 5px 8px 5px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.img-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 40px;
+    box-shadow: 0 0 50px goldenrod,0 0 50px goldenrod;
+    animation-name: wer;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes wer {
+    0%{
+        transform: rotate(5deg);
+        transition: 1s ease;
+        box-shadow: 0 0 50px goldenrod,0 0 50 goldenrod;
+
+    }
+    25%{
+        transform: rotate(80deg);
+        box-shadow: 0 0 30px palevioletred,0 0 30px palevioletred;
+
+    }
+    50%{
+        transform: rotate(160deg);
+        box-shadow: 0 0 50px rgba(128, 0, 128,0.3),0 0 50px rgba(128, 0, 128,0.3);
+    }
+    75%{
+        transform: rotate(280deg);
+        /* transform: translateY(50px); */
+        box-shadow: 0 0 30px grey,0 0 30px grey;
+    }
+    85%{
+        transform: rotate(310deg);
+    }
+    100%{  
+        transform: rotate(360deg);
+        box-shadow: 0 0 50px teal,0 0 50px teal;
+    }
+}

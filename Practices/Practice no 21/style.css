@@ -1,0 +1,61 @@
+
+
+
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+
+
+
+#box1{
+    background-color: rgb(0, 255, 255);
+    width: 20%;
+    height: 200px;
+    /* position: absolute;
+    top: 150px;
+    right: 100px; */
+    /* float: left; */
+}
+
+#box{
+    width: 20%;
+    height: 200px;
+    background-color: navy;
+    /* float: left; */
+    
+}
+
+#box2{
+    background-color: rgb(81, 255, 0);
+    width: 20%;
+    height: 200px;
+    /* position: relative;
+    left: 100px; */
+    /* float: left; */
+    
+}
+
+#box3{
+    background-color: rgb(255, 0, 85);
+    width: 20%;
+    height: 200px;
+    /* position: fixed;
+    top: 400px; */
+    /* position: sticky;
+    top: 250px; */
+    /* float: left; */
+}
+#box4{
+    background-color: thistle;
+    width: 20%;
+    height: 200px;
+    /* float: left; */
+}
+
+p{
+    font-size: 23px;
+}

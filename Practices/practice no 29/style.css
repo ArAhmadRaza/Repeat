@@ -1,0 +1,9 @@
+p{
+    background-color: aqua;
+    background-image: url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    background-size: contain;
+    /* background: url(./download.jpeg) center no-repeat fixed; */
+}

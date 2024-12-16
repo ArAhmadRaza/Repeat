@@ -1,0 +1,36 @@
+
+@import url('./wer.css');
+
+@font-face {
+    font-family: 'wer';
+    src: url('./Edu_VIC_WA_NT_Beginner/EduVICWANTBeginner-VariableFont_wght.ttf');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Jersey+10&family=Matemasie&display=swap');
+
+
+body{
+    background-color: #545454;
+}
+h1{
+    background-color: rgb(95, 158, 160);
+    color: blueviolet;
+    font-family: 'wer';
+}
+h2{
+    background-color: hsl(43, 89%, 38%);
+    color: aqua;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    background-color: hsla(25, 75%, 47%,0.3);
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}

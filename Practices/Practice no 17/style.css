@@ -1,0 +1,51 @@
+/* h4{
+    background-color: aqua;
+    border-width: 12px;
+    border-style: solid;
+    border-color: tomato;
+}
+.div{
+    background-color: blueviolet;
+ padding: 30px;
+    margin: 0px;
+}
+body{
+    background-color: yellowgreen;
+    margin-top: 3px;
+} */
+
+@import url("./abc.css");
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Matemasie&display=swap');
+@font-face {
+    font-family: 'wer';
+    src: url('./Jersey10-Regular.ttf');
+}
+
+
+
+
+.p0{
+   
+    font-family: fantasy;
+  
+}
+.p1{
+
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+    
+}
+.p2{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.p3{
+ 
+        font-family:'wer' ;
+ 
+}

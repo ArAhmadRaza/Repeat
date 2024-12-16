@@ -1,0 +1,38 @@
+/* h1{
+    background-color: teal;
+    border: 7px dotted rgb(228, 184, 66);
+    max-width: 100%;
+    min-width: 100px;
+}
+.div{
+    background-color: tomato;
+    border: 10px solid rgb(12, 68, 252);
+    max-width: 100%;
+    min-width: 100px;
+} */
+
+
+
+
+.a{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+}
+.b{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 42%;
+    top: 170px;
+}
+.c{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}

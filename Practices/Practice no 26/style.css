@@ -1,0 +1,46 @@
+/* h1{
+    background-color:red;
+} */
+
+
+/* 
+#point2{
+    background-color:blue;
+} */
+
+
+/* .point3{
+    background-color:pink;
+} */
+
+
+/* 
+div h1{
+    background-color:violet;
+} */
+
+
+/* div > span > h1{
+    background-color: turquoise;
+} */
+
+/* 
+h1 + p{
+    background-color: yellowgreen;
+} */
+
+
+/* h1 ~ p{
+    background-color: tomato;
+} */
+
+
+/* h1[id]{
+    background-color: lightgray;
+} */
+
+
+
+input[type="email"]{
+    background-color: skyblue;
+}

@@ -1,0 +1,22 @@
+h1{
+    background-color: darkmagenta;
+    color: darkgoldenrod;
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: indigo;
+    color: goldenrod;
+
+}
+body{
+    background-color: darkslategray;
+    color: white;
+}
+.type{
+    width: 400px;
+
+
+}

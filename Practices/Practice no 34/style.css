@@ -1,0 +1,44 @@
+ div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+ 
+ 
+
+#IMG{
+
+
+   
+    animation-name: wer;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    box-shadow: 50px 50px 50px #b84052;
+    
+
+
+
+}
+    
+@keyframes wer {
+  1% {
+    /* transform: rotate(90deg); */
+    
+    box-shadow: 50px  50px 50px purple;
+   
+    }
+  50% {
+    box-shadow: 50px 50px 50px palevioletred;
+    transform:scale(1.5);
+  }
+  100% {
+    box-shadow: 50px 50px 50px brown;
+      transform: translate(50px);
+  }
+
+}
