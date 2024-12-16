@@ -1,0 +1,53 @@
+Git & GitHub
+
+1.) INSTALLATION
+
+GitHub for Window https://windows.github.com
+GitHub for Mac https://mac.github.com
+Git for All Platforms https://git-scm.com
+
+2.) SETUP (Configuring user information)
+
+Set a name that is identifiable for credit when review version history
+git config --global user.name “your github username”
+
+set an email address that will be associated with each history marker
+git config --global user.email “your github gmail”
+
+SSH (Secure Socket Shell) key generation command
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+3.) Basics commands
+
+git status
+List which files are staged, unstaged, and untracked.
+
+git init
+Create empty Git repo in specified directory(folder)
+
+4.) HOW UPLOAD FOLDER TO GITHUB
+
+Staged single file :-
+git add [file_Name]
+UnStaged already (stage) file :-
+git reset [file_Name]
+
+Staged all files :-
+git add .
+Unstage all files :-
+git reset
+
+Add Message/Comment to staged files :-
+git commit -m “Your message”
+Add to gitHub
+git push -u origin main
+
+
+
+
+Update the Remote URL Use the following command to change the repository URL:
+
+bash
+Copy code
+git remote set-url origin git@github.com:new-username/new-repo.git
+
