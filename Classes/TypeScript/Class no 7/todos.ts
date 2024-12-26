@@ -37,7 +37,7 @@ class Todo implements iTodo {
     }
     updateTodo(index: number, todo: TodoType): TodoType[]{
         // this.title[index] = todo;
-        return this.title.splice(index, 1, todo)
+        return this.title.splice(index, 1, todo)A
     }
 }
 
