@@ -1,24 +1,25 @@
 "use strict";
-class Todo {
+class Iadmin {
     constructor(title) {
         this.title = title;
     }
-    createTodo() {
-        return this.title.push('new todo');
+    createTodo(addtodo) {
+        this.title.push(addtodo);
     }
-    deleteTodo() {
-        return this.title.pop();
+    deleteTodo(index) {
+        this.title.splice(index, 1);
     }
     resetTodo() {
-        return this.title = [];
+        this.title = [];
     }
-    updateTodo() {
-        return this.title[0] = 'updated todo';
+    updateTodo(index, wer) {
+        this.title[index] = wer;
     }
 }
-var todo = new Todo(['todo1', 'todo2']);
-todo.createTodo();
-// todo.deleteTodo();
-// todo.resetTodo();
-todo.updateTodo();
-console.log(todo);
+let admin = new Iadmin(["Admin", "Super Admin"]);
+admin.createTodo("New Todo");
+// admin.createTodo("New Todo 2");
+// admin.deleteTodo(1);
+// admin.resetTodo();
+admin.updateTodo(1, "Updated Todo");
+console.log(admin);

@@ -1,39 +1,86 @@
-interface Itodo {
-    title: string[];
-    createTodo(): void;
-    deleteTodo(): void;
-    resetTodo(): void;
-    updateTodo(): void;
+
+
+interface Admin {
+    title : string[];
+    createTodo(addtodo : string) : void;
+    deleteTodo(index : number) : void;
+    resetTodo() : void;
+    updateTodo(index : number ,  wer : string) : void;
 }
 
-class Todo implements Itodo {
-    title: string[];
-
-    constructor(title: string[]) {
+class Iadmin implements Admin {
+    title : string[];
+    constructor(title : string[]) {
         this.title = title;
     }
-    createTodo() {
-        return this.title.push('new todo');
+    createTodo(addtodo : string): void {
+         this.title.push(addtodo);
     }
-    deleteTodo() {
-        return this.title.pop();
+    deleteTodo (index : number) : void {
+        this.title.splice(index, 1);
     }
-    resetTodo() {
-        return this.title = [];
+    resetTodo() : void {
+        this.title = [];
     }
-    updateTodo() {
-        return this.title[0] = 'updated todo';
+    updateTodo (index : number , wer : string) : void {
+        this.title[index] = wer;
     }
 }
 
-var todo = new Todo(['todo1', 'todo2']);
+let admin = new Iadmin(["Admin", "Super Admin"]);
 
-todo.createTodo();
-// todo.deleteTodo();0
-// todo.resetTodo();
-todo.updateTodo();
+admin.createTodo("New Todo");
+// admin.createTodo("New Todo 2");
+// admin.deleteTodo(1);
+// admin.resetTodo();
+admin.updateTodo(1, "Updated Todo");
+
+console.log(admin); 
 
 
-console.log(todo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

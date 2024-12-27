@@ -7,7 +7,7 @@ type TodoType = {
     title: string;
     completed: boolean;
     description: string;
-}
+}             
 
 interface iTodo {
     title: TodoType[];
