@@ -3,15 +3,25 @@ import "./button.css"
 
 
 
-function Button(){
+export default function Button(props){
+
+console.log("Props=>>>>>>>>>>>",props)
+
+let btn = "aqua"
+if(props.title === "Header Button"){
+    btn = "red"
+}
+else if(props.title === "App Button"){
+    btn = "blue"
+}
+
     return(
         <div>
-            <button className="btn">Click Me</button>
-           
+            <button type="button" style={{backgroundColor: btn}} class="btn btn-success">{props.title}</button>
+    
         </div>
     )
 }
-export default Button
 
 
 
