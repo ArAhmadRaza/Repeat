@@ -1,18 +1,12 @@
-import Button from "./components/button/Button"
-// import img from "./logo.svg"
 
 
-function App(){
+ import Routing from "./routing/Routing"; 
+ 
+ function App() { 
   return (
-    <div>
-      <h1>Hello World 1</h1>
-      <Button title="Submit" abc="green"  />
-      <img style={{width:"200px", height:"200px"}} alt="img" src={require("./logo.svg")} />
-      <Button title="onClick" abc="red" />
-      
-    </div>
-  )
-}
+     <div> <Routing /> </div> 
+    );
+     } 
 
 
-export default App
+export default App;
