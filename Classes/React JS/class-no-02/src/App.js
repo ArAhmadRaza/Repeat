@@ -1,18 +1,14 @@
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import Button from "./components/button/Button";
-// import Image from "./assets/download.jfif"
+import Navbar from "./components/navbar/Navbar";
+import Routing from "./routing/Routing";
+
+
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <h1>Hello World</h1>
-      {/* <img style={{borderRadius: 20}} src={Image} /> */}
-      {/* <img src="/logo192.png" /> */}
-
-      <Footer />
-      <Button title="App Button"  />
+      <Navbar />
+      <Routing />
     </div>
   );
 }
