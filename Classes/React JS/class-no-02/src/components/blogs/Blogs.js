@@ -1,8 +1,8 @@
 import BlogCard from "../blogCard/BlogCard";
-import { blogsData } from "../../constant/constant"
+import { blogsData } from "../../constant/constant";
+import Button from "../button/Button"
 
 export default function Blogs() {
-    
   return (
     <div className="main">
       <div className="container">
@@ -10,21 +10,13 @@ export default function Blogs() {
           <h2 className="h2">Latest Blog Post</h2>
 
           <div className="blog-card-group">
-          {blogsData.map((blogsData, index) => (
-          <BlogCard
-            key={index}
-            img={blogsData.img}
-            btn={blogsData.btn}
-            title={blogsData.title}
-            description={blogsData.description}
-            author={blogsData.author}
-          />
-        ))}
+  {blogsData.map((props) => (
+    <BlogCard key={props.title} props={props} />
+  ))}
 
-           
           </div>
 
-          <button className="btn load-more">Load More</button>
+          <Button />
         </div>
 
         <div className="aside">

@@ -1,11 +1,13 @@
-export default function BlogCard({ img, btn, title, description, author }) {
+export default function BlogCard({ props }) {
+  console.log("props ========>>>>>>>>", props);
+
   return (
     <div className="blog-card">
       {/* Blog Card Banner */}
       <div className="blog-card-banner">
         <img
-          src={img}
-          alt={title || "Blog Image"}
+          src={props?.img}
+          alt={"Blog Image"}
           width="250"
           className="blog-banner-img"
         />
@@ -13,21 +15,21 @@ export default function BlogCard({ img, btn, title, description, author }) {
 
       {/* Blog Content Wrapper */}
       <div className="blog-content-wrapper">
-        <button className="blog-topic text-tiny">{btn}</button>
+        <button className="blog-topic text-tiny">{props?.btn}</button>
 
         <h3>
           <a href="#" className="h3">
-            {title}
+            {props?.title}
           </a>
         </h3>
 
-        <p className="blog-text">{description}</p>
+        <p className="blog-text">{props?.description}</p>
 
         {/* Author Details */}
         <div className="wrapper-flex">
           <div className="profile-wrapper">
             <img
-              src={author?.authorImg}
+              src={props?.author?.authorImg}
               alt="Author"
               width="50"
             />
@@ -35,16 +37,16 @@ export default function BlogCard({ img, btn, title, description, author }) {
 
           <div className="wrapper">
             <a href="#" className="h4">
-              {author?.authorName || "Author Name"}
+              {props?.author?.authorName || "Author Name"}
             </a>
 
             <p className="text-sm">
-              <time dateTime={author?.authorDate || ""}>
-                {author?.authorDate || "Unknown Date"}
+              <time dateTime={props?.author?.authorDate || ""}>
+                {props?.author?.authorDate || "Unknown Date"}
               </time>
               <span className="separator"></span>
               <ion-icon name="time-outline"></ion-icon>
-              <time dateTime="PT3M">{author?.authorTime || "0 min"}</time>
+              <time dateTime="PT3M">{props?.author?.authorTime || "0 min"}</time>
             </p>
           </div>
         </div>

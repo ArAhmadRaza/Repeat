@@ -119,4 +119,5 @@ export const blogsData = [
       authorTime: "4 min",
     },
   },
+  
 ];
