@@ -121,3 +121,35 @@ export const blogsData = [
   },
   
 ];
+
+
+
+export const sideButtonText = [
+  "Database",
+  "Accessibility",
+  "Web Performance"
+]
+
+
+
+export const sideTagsText = [
+  "#mongodb",
+  "#nodejs",
+  "#a11y",
+  "#mobility",
+  "#inclusion",
+  "#webperf",
+  "#optimize",
+  "#performance"
+
+]
+
+
+
+{/* <button className="hashtag">#nodejs</button>
+  <button className="hashtag">#a11y</button>
+  <button className="hashtag">#mobility</button>
+  <button className="hashtag">#inclusion</button>
+  <button className="hashtag">#webperf</button>
+  <button className="hashtag">#optimize</button>
+  <button className="hashtag">#performance</button> */}

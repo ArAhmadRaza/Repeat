@@ -1,6 +1,12 @@
 import BlogCard from "../blogCard/BlogCard";
-import { blogsData } from "../../constant/constant";
+import { blogsData,sideButtonText, sideTagsText } from "../../constant/constant";
 import Button from "../button/Button"
+import SideButton from "../sideButton/SideButton"
+import SideTags from "../sideTags/SideTags";
+
+
+
+
 
 export default function Blogs() {
   return (
@@ -16,50 +22,36 @@ export default function Blogs() {
 
           </div>
 
-          <Button />
+          <Button text="Learn more" />
         </div>
 
         <div className="aside">
           <div className="topics">
             <h2 className="h2">Topics</h2>
 
-            <a href="#" className="topic-btn">
-              <div className="icon-box">
-                <ion-icon name="server-outline"></ion-icon>
-              </div>
+          {sideButtonText.map((text, index) => {
+            return (
+              <SideButton key={index} text={text} />
+            );
+          })}
 
-              <p>Database</p>
-            </a>
 
-            <a href="#" className="topic-btn">
-              <div className="icon-box">
-                <ion-icon name="accessibility-outline"></ion-icon>
-              </div>
-
-              <p>Accessibility</p>
-            </a>
-
-            <a href="#" className="topic-btn">
-              <div className="icon-box">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
-
-              <p>Web Performance</p>
-            </a>
           </div>
 
           <div className="tags">
             <h2 className="h2">Tags</h2>
 
             <div className="wrapper">
-              <button className="hashtag">#mongodb</button>
-              <button className="hashtag">#nodejs</button>
-              <button className="hashtag">#a11y</button>
-              <button className="hashtag">#mobility</button>
-              <button className="hashtag">#inclusion</button>
-              <button className="hashtag">#webperf</button>
-              <button className="hashtag">#optimize</button>
-              <button className="hashtag">#performance</button>
+              {sideTagsText.map((item , index) => {
+                return (
+                  <SideTags key={index} text={item} />
+                );
+              })}
+
+
+
+
+
             </div>
           </div>
 
@@ -111,9 +103,7 @@ export default function Blogs() {
                   required
                 />
 
-                <button type="submit" className="btn btn-primary">
-                  Subscribe
-                </button>
+                <Button text="Subscribe" />
               </form>
             </div>
           </div>

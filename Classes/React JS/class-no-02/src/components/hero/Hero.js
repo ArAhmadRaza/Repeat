@@ -20,8 +20,8 @@ export default function Hero(){
             </p>
   
             <div className="btn-group">
-             <Button />
-              <Button />
+             <Button text="Contact me" />
+              <Button text="About me" />
             </div>
   
           </div>
@@ -36,7 +36,10 @@ export default function Hero(){
             </div>
   
           </div>
-  
+{/*   
+            {[{email: "test@gmail.com"},{email: "test2@gmail.com"},{email: "test3@gmail.com"},{email: "test4@gmail.com"}].map((item, index) => {
+              return <div key={index} item={item}>{item.email}</div>
+            })} */}
         </div>
   
       </div>
